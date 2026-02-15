@@ -42,7 +42,6 @@ namespace APIVerve.API.HistoricalEvents
     public partial class Event
     {
         [JsonProperty("year")]
-        [JsonConverter(typeof(ParseStringConverter))]
         public long Year { get; set; }
 
         [JsonProperty("month")]
