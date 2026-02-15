@@ -12,7 +12,6 @@ namespace APIVerve.API.HistoricalEvents
     {
         /// <summary>
         /// The keyword for which you want to get the historical events (e.g., moon landing)
-        /// Example: moon landing
         /// </summary>
         [JsonProperty("text")]
         public string Text { get; set; }
