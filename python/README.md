@@ -275,8 +275,9 @@ from apiverve_historicalevents.apiClient import HistoricaleventsAPIClient
 
 api = HistoricaleventsAPIClient("[YOUR_API_KEY]")
 
+query = { "text": "moon landing" }
+
 try:
-    query = { "text": "moon landing" }
     result = api.execute(query)
     print(result)
 finally:
