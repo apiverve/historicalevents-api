@@ -4,28 +4,40 @@ declare module '@apiverve/historicalevents' {
     secure?: boolean;
   }
 
+  /**
+   * Describes fields the current plan does not unlock. Locked fields arrive as null
+   * in `data`; `locked_fields` names them, using dot paths for nested fields.
+   * Absent when the plan unlocks everything.
+   */
+  export interface PremiumInfo {
+    message: string;
+    upgrade_url: string;
+    locked_fields: string[];
+  }
+
   export interface historicaleventsResponse {
     status: string;
     error: string | null;
     data: HistoricalEventsData;
     code?: number;
+    premium?: PremiumInfo;
   }
 
 
   interface HistoricalEventsData {
-      count:      number;
-      filteredOn: string[];
+      count:      number | null;
+      filteredOn: (null | string)[];
       events:     Event[];
   }
   
   interface Event {
-      year:        string;
-      month:       string;
-      day:         string;
-      date:        string;
-      event:       string;
-      range:       string;
-      granularity: string;
+      year:        null | string;
+      month:       null | string;
+      day:         null | string;
+      date:        null | string;
+      event:       null | string;
+      range:       null | string;
+      granularity: null | string;
   }
 
   export default class historicaleventsWrapper {
