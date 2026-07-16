@@ -1,0 +1,49 @@
+{
+    "name": "apiverve/historicalevents",
+    "description": "Historical Events is a simple tool for getting historical events. It returns a list of historical events between 300BC and 2012",
+    "version": "1.2.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "APIVerve",
+            "email": "hello@apiverve.com",
+            "homepage": "https://apiverve.com"
+        }
+    ],
+    "keywords": [
+        "api",
+        "apiverve",
+        "historicalevents",
+        "historical events",
+        "history",
+        "historical events api",
+        "history api",
+        "historical events data"
+    ],
+    "homepage": "https://apiverve.com/marketplace/historicalevents?utm_source=php&utm_medium=homepage",
+    "support": {
+        "email": "hello@apiverve.com",
+        "docs": "https://docs.apiverve.com/ref/historicalevents",
+        "source": "https://github.com/apiverve/historicalevents-API/tree/main/php"
+    },
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "APIVerve\\Historicalevents\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "APIVerve\\Historicalevents\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
