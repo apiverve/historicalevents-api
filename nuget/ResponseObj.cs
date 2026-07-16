@@ -25,12 +25,15 @@ namespace APIVerve.API.HistoricalEvents
 
         [JsonProperty("data")]
         public Data Data { get; set; }
+
+        [JsonProperty("premium")]
+        public Premium Premium { get; set; }
     }
 
     public partial class Data
     {
         [JsonProperty("count")]
-        public long Count { get; set; }
+        public long? Count { get; set; }
 
         [JsonProperty("filteredOn")]
         public string[] FilteredOn { get; set; }
@@ -42,7 +45,7 @@ namespace APIVerve.API.HistoricalEvents
     public partial class Event
     {
         [JsonProperty("year")]
-        public long Year { get; set; }
+        public long? Year { get; set; }
 
         [JsonProperty("month")]
         public string Month { get; set; }
@@ -61,5 +64,17 @@ namespace APIVerve.API.HistoricalEvents
 
         [JsonProperty("granularity")]
         public string Granularity { get; set; }
+    }
+
+    public partial class Premium
+    {
+        [JsonProperty("message")]
+        public string Message { get; set; }
+
+        [JsonProperty("upgrade_url")]
+        public Uri UpgradeUrl { get; set; }
+
+        [JsonProperty("locked_fields")]
+        public string[] LockedFields { get; set; }
     }
 }
