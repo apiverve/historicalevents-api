@@ -1,13 +1,13 @@
-# [Historical Events API](https://apiverve.com/marketplace/historicalevents?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+# [Historical Events API](https://apiverve.com/marketplace/historicalevents?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Historical Events is a simple tool for getting historical events. It returns a list of historical events between 300BC and 2012
+Historical Events is a world history API that searches historical records by keyword to find matching events and their detailed descriptions. Paid plans add exact calendar dates and queries by year or date.
 
 The Historical Events API provides a simple, reliable way to integrate historical events functionality into your applications. Built for developers who need production-ready historical events capabilities without the complexity of building from scratch.
 
-**[View API Details →](https://apiverve.com/marketplace/historicalevents?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)**
+**[View API Details →](https://apiverve.com/marketplace/historicalevents?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/historicalevents?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/historicalevents?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 [![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
 [![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
 
@@ -161,7 +161,7 @@ go get github.com/apiverve/historicalevents-api/go
 
 ## Documentation
 
-- 🏠 **API Home:** [Historical Events API](https://apiverve.com/marketplace/historicalevents?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home:** [Historical Events API](https://apiverve.com/marketplace/historicalevents?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 📚 **API Reference:** [docs.apiverve.com/ref/historicalevents](https://docs.apiverve.com/ref/historicalevents)
 - 📖 **OpenAPI Spec:** [openapi.yaml](./openapi.yaml)
 - 💡 **Examples:** [examples/](./examples/)
@@ -279,7 +279,7 @@ A real response from the Historical Events API:
 
 ## Support & Community
 
-- 🏠 **API Home**: [Historical Events API](https://apiverve.com/marketplace/historicalevents?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home**: [Historical Events API](https://apiverve.com/marketplace/historicalevents?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
 - 🐛 **Issues**: [GitHub Issues](../../issues)
 - 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
