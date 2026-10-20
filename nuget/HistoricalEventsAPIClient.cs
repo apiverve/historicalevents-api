@@ -67,7 +67,7 @@ namespace APIVerve.API.HistoricalEvents
         /// <summary>Validation rules for parameters</summary>
         private static readonly Dictionary<string, ValidationRule> _validationRules = new Dictionary<string, ValidationRule>
         {
-            { "text", new ValidationRule { Type = "string", Required = true } }
+            { "text", new ValidationRule { Type = "string", Required = true, MaxLength = 200 } }
         };
 
         /// <summary>Format validation patterns</summary>
