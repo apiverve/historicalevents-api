@@ -1,6 +1,6 @@
 # Historical Events API - PHP Package
 
-Historical Events is a simple tool for getting historical events. It returns a list of historical events between 300BC and 2012
+Historical Events is a world history API that searches historical records by keyword to find matching events and their detailed descriptions. Paid plans add exact calendar dates and queries by year or date.
 
 ## Installation
 
@@ -140,11 +140,11 @@ $client = new Client(
 
 ## Documentation
 
-For more information, visit the [API Documentation](https://docs.apiverve.com/ref/historicalevents?utm_source=packagist&utm_medium=readme).
+For more information, visit the [API Documentation](https://docs.apiverve.com/ref/historicalevents?utm_source=packagist&utm_medium=referral&utm_content=readme).
 
 ## Support
 
-- Website: [https://apiverve.com/marketplace/historicalevents?utm_source=php&utm_medium=readme](https://apiverve.com/marketplace/historicalevents?utm_source=php&utm_medium=readme)
+- Website: [https://apiverve.com/marketplace/historicalevents?utm_source=php&utm_medium=referral&utm_content=readme](https://apiverve.com/marketplace/historicalevents?utm_source=php&utm_medium=referral&utm_content=readme)
 - Email: hello@apiverve.com
 
 ## License
