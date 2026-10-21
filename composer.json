@@ -1,7 +1,7 @@
 {
     "name": "apiverve/historicalevents",
-    "description": "Historical Events is a simple tool for getting historical events. It returns a list of historical events between 300BC and 2012",
-    "version": "1.2.0",
+    "description": "Historical Events is a world history API that searches historical records by keyword to find matching events and their detailed descriptions. Paid plans add exact calendar dates and queries by year or date.",
+    "version": "1.2.2",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -15,13 +15,13 @@
         "api",
         "apiverve",
         "historicalevents",
-        "historical events",
-        "history",
         "historical events api",
         "history api",
-        "historical events data"
+        "world history api",
+        "historical api",
+        "search historical events"
     ],
-    "homepage": "https://apiverve.com/marketplace/historicalevents?utm_source=php&utm_medium=homepage",
+    "homepage": "https://apiverve.com/marketplace/historicalevents?utm_source=php&utm_medium=referral&utm_content=homepage",
     "support": {
         "email": "hello@apiverve.com",
         "docs": "https://docs.apiverve.com/ref/historicalevents",
