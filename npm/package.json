@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/historicalevents",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Historical Events is a world history API that searches historical records by keyword to find matching events and their detailed descriptions. Paid plans add exact calendar dates and queries by year or date.",
   "main": "index.js",
   "types": "index.d.ts",
