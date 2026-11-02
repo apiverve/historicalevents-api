@@ -4,6 +4,6 @@ require_relative "apiverve_historicalevents/client"
 
 module APIVerve
   module Historicalevents
-    VERSION = "1.2.3"
+    VERSION = "1.2.4"
   end
 end
