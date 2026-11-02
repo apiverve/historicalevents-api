@@ -46,10 +46,10 @@ final _formatPatterns = {
 
 /// Historical Events API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/historicalevents?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/historicalevents?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
-/// * [text] (required) - The keyword for which you want to get the historical events (e.g., moon landing)
+/// * [text] (required) - The keyword for which you want to get the historical events (e.g., moon landing) [maxLength: 200]
 class HistoricaleventsClient {
   final String apiKey;
   final String baseUrl;
@@ -57,7 +57,7 @@ class HistoricaleventsClient {
 
   /// Validation rules for parameters.
   static final Map<String, ValidationRule> _validationRules = <String, ValidationRule>{
-    'text': ValidationRule(type: 'string', required: true),
+    'text': ValidationRule(type: 'string', required: true, maxLength: 200),
   };
 
   HistoricaleventsClient(this.apiKey, {

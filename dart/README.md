@@ -1,11 +1,11 @@
 # Historical Events API - Dart/Flutter Client
 
-Historical Events is a simple tool for getting historical events. It returns a list of historical events between 300BC and 2012
+Historical Events is a world history API that searches historical records by keyword to find matching events and their detailed descriptions. Paid plans add exact calendar dates and queries by year or date.
 
 [![pub package](https://img.shields.io/pub/v/apiverve_historicalevents.svg)](https://pub.dev/packages/apiverve_historicalevents)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the Dart/Flutter client for the [Historical Events API](https://apiverve.com/marketplace/historicalevents?utm_source=dart&utm_medium=readme).
+This is the Dart/Flutter client for the [Historical Events API](https://apiverve.com/marketplace/historicalevents?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## Installation
 
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_historicalevents: ^1.1.14
+  apiverve_historicalevents: ^1.2.4
 ```
 
 Then run:
@@ -118,12 +118,12 @@ void main() async {
 
 ## API Reference
 
-- **API Home:** [Historical Events API](https://apiverve.com/marketplace/historicalevents?utm_source=dart&utm_medium=readme)
-- **Documentation:** [docs.apiverve.com/ref/historicalevents](https://docs.apiverve.com/ref/historicalevents?utm_source=dart&utm_medium=readme)
+- **API Home:** [Historical Events API](https://apiverve.com/marketplace/historicalevents?utm_source=dart&utm_medium=referral&utm_content=readme)
+- **Documentation:** [docs.apiverve.com/ref/historicalevents](https://docs.apiverve.com/ref/historicalevents?utm_source=dart&utm_medium=referral&utm_content=readme)
 
 ## Authentication
 
-All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=readme).
+All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## License
 
@@ -131,4 +131,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=readme)
+Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme)
