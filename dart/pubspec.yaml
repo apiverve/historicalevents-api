@@ -1,6 +1,6 @@
 name: apiverve_historicalevents
 description: "Historical Events is a world history API that searches historical records by keyword to find matching events and their detailed descriptions. Paid plans add exact calendar dates and queries by year or date."
-version: 1.2.4
+version: 1.2.5
 homepage: https://apiverve.com/marketplace/historicalevents?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/historicalevents-api/tree/main/dart
 
